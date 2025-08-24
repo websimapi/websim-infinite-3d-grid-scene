@@ -1,0 +1,28 @@
+{
+  "database": {
+    "schema": {
+      "scene_objects_v1": {
+        "id": {
+          "type": "uuid"
+        },
+        "user_id": {
+          "type": "uuid"
+        },
+        "model_url": {
+          "type": "text"
+        },
+        "position": {
+          "type": "jsonb"
+        },
+        "rotation": {
+          "type": "jsonb"
+        },
+        "scale": {
+          "type": "jsonb"
+        }
+      }
+    },
+    "instructions": "A collaborative 3D scene editor. Each record in `scene_objects_v1` represents a 3D model in the scene. Positions, rotations, and scales are stored as JSONB objects, e.g., {\"x\": 0, \"y\": 0, \"z\": 0}."
+  }
+}
+
