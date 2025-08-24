@@ -67,7 +67,7 @@ function Model({ obj, onUpdate, onSelect, isSelected }) {
           },
           this
         ),
-        isSelected && /* @__PURE__ */ jsxDEV(Html, { position: [0, 1.5, 0], children: /* @__PURE__ */ jsxDEV("div", { className: "info-box", children: [
+        isSelected && obj.username && /* @__PURE__ */ jsxDEV(Html, { position: [0, 1.5, 0], children: /* @__PURE__ */ jsxDEV("div", { className: "info-box", children: [
           /* @__PURE__ */ jsxDEV("img", { src: `https://images.websim.com/avatar/${obj.username}`, alt: obj.username }, void 0, false, {
             fileName: "<stdin>",
             lineNumber: 71,
